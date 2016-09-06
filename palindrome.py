@@ -1,5 +1,6 @@
 import re
 
+
 def is_palindrome(user_sentence):
     user_sentence = re.sub('[^a-z0-9]', '', user_sentence.lower())
     if len(user_sentence) < 1:
